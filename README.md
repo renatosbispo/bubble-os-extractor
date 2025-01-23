@@ -53,9 +53,13 @@ The output of the script is described by the following JSON schema:
           }
         },
         "required": ["custom", "builtIn"]
+      },
+      "options": {
+        "type": "array",
+        "items": { "type": "string" }
       }
     },
-    "required": ["name", "fields"]
+    "required": ["name", "fields", "options"]
   }
 }
 ```

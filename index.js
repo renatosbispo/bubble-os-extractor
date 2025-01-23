@@ -12,7 +12,7 @@ async function getOptionSets() {
     const fields = await getOptionSetFields(optionSetElement);
     const options = await getOptionSetOptions(optionSetElement);
 
-    optionSets.push({ name, fields });
+    optionSets.push({ name, fields, options });
   }
 
   return optionSets;
