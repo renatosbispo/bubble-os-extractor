@@ -6,6 +6,15 @@ This is a script that extracts all the option sets in a Bubble application throu
 
 It does not include the options' attribute values.
 
+## Usage
+
+1. Copy the entire contents of the `index.js` file.
+2. Access the Option Set subtab in the Data tab of the Bubble editor.
+3. Open the browser console, paste the copied code and press Enter.
+4. Wait for the script to finish executing and copy the output from the console, which should appear as in the image below:
+
+![After executing the script, this is the expected output: "[extract-bubble-option-sets] Output:" followed by the array containing the option sets.](images/console-output.png)
+
 ## Output Format
 
 The output of the script is described by the following JSON schema:
@@ -50,12 +59,3 @@ The output of the script is described by the following JSON schema:
   }
 }
 ```
-
-## Usage
-
-1. Copy the entire contents of the `index.js` file.
-2. Access the Option Set subtab in the Data tab of the Bubble editor.
-3. Open the browser console, paste the copied code and press Enter.
-4. Wait for the script to finish executing and copy the output from the console, which should appear as in the image below:
-
-![After executing the script, this is the expected output: "[extract-bubble-option-sets] Output:" followed by the array containing the option sets.](images/console-output.png)
