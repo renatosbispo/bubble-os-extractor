@@ -9,7 +9,7 @@ It does not include the options' attribute values.
 ## Usage
 
 1. Copy the entire contents of the `index.js` file.
-2. Access the Option Set subtab in the Data tab of the Bubble editor.
+2. Access the **Option Sets** subtab in the **Data** tab of the Bubble editor.
 3. Open the browser console, paste the copied code and press Enter.
 4. Wait for the script to finish executing and copy the output from the console, which should appear as in the image below:
 
