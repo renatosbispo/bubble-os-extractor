@@ -25,6 +25,17 @@ function getOptionSetElements() {
   return optionSetElements;
 }
 
+async function getOptionSetFields(optionSetElement) {
+  optionSetElement.click();
+
+  await delay(200);
+
+  const builtIn = getOptionSetFieldsBuiltIn();
+  const custom = getOptionSetFieldsCustom();
+
+  return { custom, builtIn };
+}
+
 function getOptionSetFieldsBuiltIn() {
   const builtInFieldsSelector =
     '.custom-fields.option-set-attributes .field.built-in';
@@ -57,17 +68,6 @@ function getOptionSetFieldsCustom() {
   });
 
   return fields;
-}
-
-async function getOptionSetFields(optionSetElement) {
-  optionSetElement.click();
-
-  await delay(200);
-
-  const builtIn = getOptionSetFieldsBuiltIn();
-  const custom = getOptionSetFieldsCustom();
-
-  return { custom, builtIn };
 }
 
 function getOptionSetName(optionSetElement) {
