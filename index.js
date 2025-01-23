@@ -103,7 +103,7 @@ async function delay(duration) {
 async function displayOptionSets() {
   const optionSets = await getOptionSets();
 
-  console.log("[extract-bubble-option-sets] Output:", optionSets);
+  console.log("[bubble-os-extractor] Output:", optionSets);
 }
 
 displayOptionSets();

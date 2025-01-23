@@ -13,7 +13,7 @@ It does not include the options' attribute values.
 3. Open the browser console, paste the copied code and press Enter.
 4. Wait for the script to finish executing and copy the output from the console, which should appear as in the image below:
 
-![After executing the script, this is the expected output: "[extract-bubble-option-sets] Output:" followed by the array containing the option sets.](images/console-output.png)
+![After executing the script, this is the expected output: "[bubble-os-extractor] Output:" followed by the array containing the option sets.](images/console-output.png)
 
 ## Output Format
 
